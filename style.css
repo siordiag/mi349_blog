@@ -11,7 +11,9 @@ body {
 h1 {
   text-align: center;
 }
-
+p {
+  margin: 10px;
+}
 a {
   text-decoration: underline;
   color: #0A0908;
@@ -48,4 +50,26 @@ a:hover {
   color: #FCFAFA;
   text-align: center;
   padding: 20px;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+article {
+  padding: 10px;
+}
+
+button {
+  border-radius: 25px;
+  background-color: #FCFAFA;
+  font-weight: bold;
+  color: #995D81;
+}
+
+table {
+  text-align: center;
+  background-color: #D8C0CE;
+  border: 1px solid;
 }
