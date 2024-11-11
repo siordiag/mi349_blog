@@ -3,17 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #0A0908;
     line-height: 1.5;
-    margin: 10px;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
   }
 
 
 h1 {
   text-align: center;
 }
-p {
-  margin: 10px;
-}
+
 a {
   text-decoration: underline;
   color: #0A0908;
@@ -26,10 +24,9 @@ a:hover {
   background-color: #995D81;
   position: sticky;
   top: 0;
-  margin: 0;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px;
 }
 .navigation a {
   color: #FCFAFA;
@@ -72,4 +69,16 @@ table {
   text-align: center;
   background-color: #D8C0CE;
   border: 1px solid;
+}
+
+.flexbox {
+  display:flex;
+  flex-direction: column;
+  background-color: #D8C0CE;
+
+}
+
+.flexbox div {
+  background-color: #FCFAFA;
+  margin: 5px 10px;
 }
